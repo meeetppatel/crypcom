@@ -52,10 +52,6 @@ function Navbar() {
       href: '#',
     },
     {
-      name: 'Stats',
-      href: '#',
-    },
-    {
       name: 'Listings',
       href: 'https://thirdweb.com/mumbai/0xc6eBee784abADA9e98de65D4A2e621D306931049/listings',
     },
