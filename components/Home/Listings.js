@@ -14,6 +14,7 @@ const Listings = () => {
 
   useEffect(() => {
     getListings()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const getListings = async () => {

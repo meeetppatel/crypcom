@@ -27,13 +27,14 @@ const style = {
 }
 
 export default function Home() {
-  const address = useAddress()
   const [collection] = useState(collectionData)
   const router = useRouter()
   const { slug } = router.query
-
+  const address = useAddress()
+  
   useEffect(() => {
     if (!address) router.replace('/')
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [address])
 
   useEffect(() => {

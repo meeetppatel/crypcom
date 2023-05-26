@@ -22,12 +22,15 @@ const NFT = () => {
     "0xc6eBee784abADA9e98de65D4A2e621D306931049",
   )
 
-   useEffect(() => {
+  useEffect(() => {
     getListing()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     if (!address) router.replace('/')
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [address])
 
   

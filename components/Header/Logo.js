@@ -8,9 +8,9 @@ const style = {
 const Logo = () => {
   return (
     <div className='flex cursor-pointer items-center space-x-3'>
-      <Image src='/logo.png' width={40} height={40} />
+      <Image src='/logo.png' width={40} height={40} alt='logo' />
       <div className='ml-4 pt-3'>
-      <Image src='/CRYPCOM.svg' width={110} height={50}/>  
+      <Image src='/CRYPCOM.svg' width={110} height={50} alt='logo'/>  
       </div>
     </div>
     )

@@ -16,7 +16,7 @@ function NFTImage({ image }) {
   return (
     <div className={style.wrapper}>
       <div className={style.nftHeader}>
-        <Image height={20} width={20} src='/polygon-matic-logo.svg' alt='eth' />
+        <Image height={20} width={20} src='/polygon-matic-logo.svg' alt='matic' />
 
         <div className={style.likesContainer}>
           <AiOutlineHeart className={style.heartIcon} />

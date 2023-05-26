@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 function CollectionStats({ stats }) {
   const formatStat = stat => {
@@ -32,14 +34,14 @@ function CollectionStats({ stats }) {
       </div>
       <div className='flex flex-col items-center justify-center border-r px-8 py-4 md:border-0'>
         <div className='flex items-center space-x-1'>
-          <img className='h-5 w-5' src='/polygon-matic-logo.svg' alt='Matic Logo' />
+          <Image className='h-5 w-5' src='/polygon-matic-logo.svg' alt='Matic Logo' />
           <p className='text-2xl font-bold'>{formatStat(stats?.floor_price)}</p>
         </div>
         <span className='text-sm text-gray-400'>floor price</span>
       </div>
       <div className='flex flex-col items-center justify-center  px-8 py-4 '>
         <div className='flex items-center space-x-1'>
-          <img className='h-5 w-5' src='/polygon-matic-logo.svg' alt='Matic Logo' />
+          <Image className='h-5 w-5' src='/polygon-matic-logo.svg' alt='Matic Logo' />
           <p className='text-2xl font-bold'>
             {formatStat(stats?.total_volume)}
           </p>
