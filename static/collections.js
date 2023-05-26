@@ -1,5 +1,5 @@
-import banner from '../assets/BoredApeBanner.png'
-import logo from '../assets/Bored-Ape-Yacht-Club.png'
+import banner from '../assets/banner.png'
+import logo from '../assets/boredapelogo.png'
 
 export const collectionData = {
   name: 'Bored Ape Yacht Club',
