@@ -85,7 +85,9 @@ function Navbar() {
         </div>
 
         <div className='flex items-center space-x-6'>
+          <a href='https://testnets.opensea.io/account'>
           <UserCircleIcon className='hidden h-8 w-8 cursor-pointer text-gray-600 transition-all hover:text-black dark:text-gray-300 hover:dark:text-white lg:block' />
+          </a>
           <a href='https://mumbai.polygonscan.com/address/0xdf7fcafc4bf002f5ea9b234f014c961925216631'>
           <CreditCardIcon className='hidden h-8 w-8 cursor-pointer text-gray-600 transition-all hover:text-black dark:text-gray-300 hover:dark:text-white lg:block' />
           </a>
