@@ -56,8 +56,8 @@ function Navbar() {
       href: 'https://thirdweb.com/mumbai/0xc6eBee784abADA9e98de65D4A2e621D306931049/listings',
     },
     {
-      name: 'Create',
-      href: 'https://thirdweb.com/mumbai/0x0719C810eE6C5036d7Aba889c4C0861a9D89aEaf/nfts',
+      name: 'Mint',
+      href: 'https://thirdweb.com/mumbai/0x13F3D1D8b12a146740d5332B943b7117634029C5/nfts',
     },
   ]
 
