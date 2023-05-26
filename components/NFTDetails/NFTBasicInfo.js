@@ -31,7 +31,7 @@ const NFTBasicInfo = ({ name }) => {
   return (
     <div>
       <div className={style.topContainer}>
-        <div className={style.collectionTitle}>Doodles</div>
+        <div className={style.collectionTitle}>Bored Ape</div>
 
         <div className={style.actionItems}>
           {actionItems.map((item, index) => (
