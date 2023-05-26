@@ -9,7 +9,7 @@ const style = {
   innerTextContainer: `bg-gray-50 p-4 dark:bg-[#313339]`,
 }
 
-const Dropdown = ({ title, icon }) => {
+const Dropdown = ({ title, content, icon }) => {
   return (
     <Disclosure>
       {({ open }) => (
@@ -29,7 +29,7 @@ const Dropdown = ({ title, icon }) => {
             </div>
           </Disclosure.Button>
           <Disclosure.Panel>
-            <div className={style.innerTextContainer}>{title}</div>
+            <div className={style.innerTextContainer}>{content}</div>
           </Disclosure.Panel>
         </>
       )}

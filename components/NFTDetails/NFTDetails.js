@@ -11,10 +11,12 @@ const NFTDetails = () => {
   const dropdownData = [
     {
       title: 'Description',
+      content: 'By Bored Ape Yacht Club ',
       icon: <GrTextAlignLeft className={style.icon} />,
     },
     {
       title: 'Properties',
+      content: `Token Standard : ERC-721 `,               
       icon: <BsFillBookmarkFill className={style.icon} />,
     },
   ]
@@ -22,7 +24,7 @@ const NFTDetails = () => {
   return (
     <div className={style.wrapper}>
       {dropdownData.map((item, index) => (
-        <Dropdown key={index} title={item.title} icon={item.icon} />
+        <Dropdown key={index} title={item.title} content={item.content} icon={item.icon} />
       ))}
     </div>
   )
