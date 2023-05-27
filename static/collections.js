@@ -9,10 +9,10 @@ export const collectionData = {
   banner_image_url: banner,
   image_url: logo,
   stats: {
-    total_volume: 907100,
-    total_supply: 10000,
-    num_owners: 3500,
-    floor_price: 22.6,
+    total_volume: 400,
+    total_supply: 24,
+    num_owners: 2,
+    floor_price: 0.001,
   },
   address: '0x3fd3cA343B65A7AC983744A29FC1dC8811c008E7',
 }
